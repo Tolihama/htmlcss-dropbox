@@ -35,6 +35,10 @@ h3 {
     margin: 0 auto;
 }
 
+.w20 {
+    width: 20%;
+}
+
 .w30 {
     width: 30%;
 }
@@ -281,6 +285,45 @@ header nav li.link:hover {
     border-bottom: 1px solid #d0d0d3;
     width: 20%;
 }
+
+
+
+/* FOOTER */
+footer,
+footer li a {
+    color: #fff;
+}
+
+footer h4 {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+footer li {
+    list-style: none;
+    margin-bottom: 10px;
+}
+
+footer .upper-footer {
+    padding: 100px 0;
+}
+
+footer hr {
+    border-top: 0;
+    border-bottom: 1px solid #fff;
+    width: 10%;
+}
+
+footer .bottom-footer {
+    padding: 50px 0;
+    color: #5e5e5e;
+    font-size: 14px;
+}
+
+footer .fa-sort-up {
+    vertical-align: middle;
+}
+
 
 /* DEBUG */
 .bg-debug-1 {
