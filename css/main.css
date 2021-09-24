@@ -6,14 +6,33 @@
     font-family: 'Open Sans', sans-serif;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 a {
     color: #000;
     text-decoration: none;
 }
 
+h1 {
+    padding: 100px 0 50px;
+    font-size: 84px;
+    font-weight: 700;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 700;
+}
+
 /* UTILITIES */
 .container {
     margin: 0 auto;
+}
+
+.w30 {
+    width: 30%;
 }
 
 .w40 {
@@ -50,6 +69,10 @@ a {
     clear: both;
 }
 
+.mx-5per {
+    margin: 0 5%;
+}
+
 .mb-10 {
     margin-bottom: 10px;
 }
@@ -60,6 +83,18 @@ a {
 
 .mb-40 {
     margin-bottom: 40px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.pt-80 {
+    padding-top: 80px;
+}
+
+.pt-140 {
+    padding-top: 140px;
 }
 
 /* TEXT UTILITIES */
@@ -112,19 +147,6 @@ a {
     font-size: 20px;
 }
 
-/* DEBUG */
-.bg-debug-1 {
-    background-color: red;
-}
-
-.bg-debug-2 {
-    background-color: seagreen;
-}
-
-.debug-box {
-    height: 100px;
-}
-
 /* HEADER - NAV */
 header {
     position: fixed;
@@ -162,31 +184,41 @@ header nav li.link:hover {
     border-bottom: 3px solid #000;
 }
 
-/* BANNER SECTION */
-.banner {
+/* JUMBO SECTION */
+.jumbo {
     position: relative;
     top: 80px;
 }
 
-.banner h1 {
-    padding: 100px 0 50px;
-    font-size: 84px;
-    font-weight: 700;
-}
-
-.banner .jumbo-l {
+.jumbo .jumbo-l {
     padding-right: 100px;
 }
 
-.banner p {
+.jumbo p {
     font-size: 20px;
     font-weight: 500;
 }
 
-.banner a {
+.jumbo a {
     display: inline-block;
 }
 
-.banner .fa-arrow-down {
+.jumbo .fa-arrow-down {
     font-size: 48px;
+}
+
+/* MAIN SECTION */
+.plan-box {
+
+}
+
+
+/* DEBUG */
+.bg-debug-1 {
+    background-color: red;
+}
+
+.debug-box {
+    height: 100px;
+    background-color: seagreen;
 }
