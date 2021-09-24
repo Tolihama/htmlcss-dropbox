@@ -26,6 +26,10 @@ h2 {
     font-weight: 700;
 }
 
+h3 {
+    font-size: 30px;
+}
+
 /* UTILITIES */
 .container {
     margin: 0 auto;
@@ -77,12 +81,20 @@ h2 {
     margin-bottom: 10px;
 }
 
+.mb-20 {
+    margin-bottom: 20px;
+}
+
 .mb-30 {
     margin-bottom: 30px;
 }
 
 .mb-40 {
     margin-bottom: 40px;
+}
+
+.mb-50 {
+    margin-bottom: 50px;
 }
 
 .mb-70 {
@@ -208,10 +220,58 @@ header nav li.link:hover {
 }
 
 /* MAIN SECTION */
+/* PLAN BOX */
 .plan-box {
-
+    height: 100%;
+    border: 1px solid #d0d0d3;
 }
 
+.plan-box .category {
+    border-bottom: 1px solid #d0d0d3;
+    line-height: 45px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.plan-box .description {
+    padding: 40px 30px 0;
+}
+
+.plan-box .price > * {
+    line-height: 30px;
+}
+
+.plan-box .price span {
+    color: #637381;
+}
+
+.plan-box .description .fa-ul {
+    margin-left: 1.7em;
+}
+
+.plan-box .description li {
+    margin-bottom: 30px;
+}
+
+.plan-box .description .small-btn {
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.plan-box .description .buy-now {
+    color: #0a67ff;
+    text-decoration: underline;
+}
+
+.plan-box .description .fa-check {
+    color: #0a67ff;
+}
+
+.plan-box .description hr {
+    border-bottom: 1px solid #d0d0d3;
+    width: 20%;
+}
 
 /* DEBUG */
 .bg-debug-1 {
@@ -220,5 +280,5 @@ header nav li.link:hover {
 
 .debug-box {
     height: 100px;
-    background-color: seagreen;
+/*     background-color: seagreen; */
 }
