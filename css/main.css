@@ -101,6 +101,10 @@ h3 {
     margin-bottom: 70px;
 }
 
+.mb-150 {
+    margin-bottom: 150px;
+}
+
 .pt-80 {
     padding-top: 80px;
 }
@@ -264,11 +268,16 @@ header nav li.link:hover {
     text-decoration: underline;
 }
 
+.plan-box .description .buy-now:hover {
+    color: royalblue;
+}
+
 .plan-box .description .fa-check {
     color: #0a67ff;
 }
 
 .plan-box .description hr {
+    border-top: 0;
     border-bottom: 1px solid #d0d0d3;
     width: 20%;
 }
