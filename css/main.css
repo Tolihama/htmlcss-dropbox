@@ -240,7 +240,7 @@ header nav li {
     position: relative;
     height: 80px;
     line-height: 80px;
-    padding: 0 21px;
+    margin: 0 21px;
     list-style-type: none;
 }
 
@@ -284,9 +284,49 @@ header nav li.link:hover {
 }
 
 /* MAIN SECTION */
+/* RADIO INPUT (BILL) */
+#plans label {
+    position: relative;
+    padding-left: 30px;
+    margin-right: 20px;
+    line-height: 25px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+#plans input {
+    position: absolute;
+    opacity: 0;
+}
+
+#plans .checkmark {
+    position: absolute;
+    top: 2px;
+    left: 0;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #d5d5d8;
+    border-radius: 50%;
+}
+
+#plans label:hover .checkmark {
+    border: 0;
+    box-shadow: 0 0 5px 1px #0061ff inset;
+}
+
+#plans input:checked ~ .checkmark {
+    border: 0;
+    box-shadow: 0 0 0 5px #0061ff inset;
+}
+
+
 /* PLAN BOX */
+.plan-box-container .plan-box {
+    min-height: 1105px;
+}
+/* Questa proprietà accrocchio è per dare alle colonne tutte la stessa altezza, ma non è flessibile! */
+
 .plan-box {
-    height: 100%;
     border: 1px solid #d0d0d3;
 }
 
@@ -434,10 +474,6 @@ a.our-customers {
 
 #faq .question:hover h6::after {
     content: '\f077';
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 700;
-    position: absolute;
-    right: 30px;
 }
 
 #faq .question p {
