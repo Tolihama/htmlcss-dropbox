@@ -335,6 +335,63 @@ a.our-customers {
     text-decoration: underline;
 }
 
+#our-customers .logos > div {
+    width: 50%;
+    padding: 25%;
+    float: left;
+    position: relative;
+}
+
+#our-customers .logos img {
+    position: absolute;
+    transform: translate(-50%, -50%) scale(50%);
+    filter: invert(1);
+}
+
+#our-customers .bg1 {
+    background-color: #a2d39b;
+    box-shadow: 0 0 0 12px #d0e9cd inset; /* Questa proprietà dovrebbe essere data allo stato di hover... */
+}
+
+#our-customers .bg2 {
+    background-color: #61082b;
+}
+
+#our-customers .bg3 {
+    background-color: #0093ce;
+}
+
+#our-customers .bg4 {
+    background-color: #ff1c1c;
+}
+
+#our-customers .bg5 {
+    background-color: #d5001f;
+}
+
+#our-customers .bg6 {
+    background-color: #b4d0e7;
+}
+
+#our-customers .bg7 {
+    background-color: #0d2481;
+}
+
+#our-customers .bg8 {
+    background-color: #ffd830;
+}
+
+#our-customers .quote-box {
+    padding: 50px;
+    background-color: #f5f5f5;
+}
+
+#our-customers hr {
+    width: 10%;
+    border-top: 1px solid #dedee0;
+    border-bottom: 0;
+}
+
 
 /* FOOTER */
 footer,
