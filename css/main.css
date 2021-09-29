@@ -188,6 +188,10 @@ img {
 }
 
 .bg-type-3 {
+    background-color: #f5f5f5;
+}
+
+.bg-type-4 {
     background-color: #000;
 }
 
@@ -477,7 +481,6 @@ a.our-customers {
 
 #our-customers .quote-box {
     padding: 50px;
-    background-color: #f5f5f5;
 }
 
 #our-customers hr {
